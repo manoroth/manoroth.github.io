@@ -1,0 +1,76 @@
+body {
+	background-image: url(images/website-backgrounds.jpg);
+	
+}
+
+p {
+	color: white;
+}
+
+ul {
+	list-style-type: square;
+	border: dashed;
+	width: 200px;
+}
+
+h2, h3, a {
+	font-family: "Helvetica"; 
+	color: white;
+}
+
+img {
+	border: thick; 
+	margin: 20px;
+}
+
+h1.title {
+	font-family: rayando;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-left: 250px;
+	color: white;
+
+}
+
+h3#title-2 {
+	position: absolute;
+	margin-top: 200px;
+	margin-left:375px;
+	font-size: 40px;
+	color: white;
+}
+img#RS1{
+	margin-top: 40px;
+	margin-left: 300px;
+}
+ul#rockstar-list {
+	background-color: transparent;
+	color: white;
+}
+img#RS2{
+	margin-top: 40px;
+	margin-left: 300px;
+	background-image: url("https://www.google.com/search?q=rockstar&biw=1871&bih=1058&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjLwvPk_ozNAhVBR2MKHV6AA7oQ_AUIBygC#imgrc=OZMPlKMpPkGqbM%3A");
+}
+
+a#visit-website {
+	color: red;
+}
+
+label {
+	color: white;
+}
+footer#footer {
+	margin-left: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+fieldset {
+	width: 100px;
+}
